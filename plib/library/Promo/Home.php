@@ -5,7 +5,7 @@ class Modules_PanelNews_Promo_Home extends pm_Promo_Home
 
     public function getTitle()
     {
-        return 'Parallels Plesk Panel News';
+        return  $this->lmsg('blockTitle');
     }
 
     public function getText()
@@ -16,7 +16,7 @@ class Modules_PanelNews_Promo_Home extends pm_Promo_Home
 
     public function getButtonText()
     {
-        return 'View Article';
+        return $this->lmsg('buttonTitle');
     }
 
     public function getButtonUrl()
