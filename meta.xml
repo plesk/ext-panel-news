@@ -5,7 +5,7 @@
   <name xml:lang="ru-RU">Новости Parallels Plesk Panel</name>
   <description>Latest news about Parallels Plesk Panel (provided by official RSS feed).</description>
   <description xml:lang="ru-RU">Последние новости о Parallels Plesk Panel (на основании официального RSS-канала).</description>
-  <version>1.0</version>
+  <version>1.1</version>
   <release>2</release>
   <icon/>
   <vendor>Parallels</vendor>
