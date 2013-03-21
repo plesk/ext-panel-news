@@ -5,7 +5,8 @@ class Modules_PanelNews_News
 
     public static function load()
     {
-        $xml = simplexml_load_file('http://www.parallels.com/products/plesk/rss');
+        $url = 'http://www.parallels.com/products/plesk/rss';
+        $xml = simplexml_load_string(file_get_contents($url));
 
         $lastItem = $xml->channel->item;
 
