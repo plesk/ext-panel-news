@@ -1,6 +1,6 @@
 <?php
 
 $messages = array(
-    'blockTitle' => 'Parallels Plesk Panel News',
+    'blockTitle' => 'Plesk News',
     'buttonTitle' => 'View Article',
 );
