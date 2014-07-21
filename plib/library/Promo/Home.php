@@ -1,5 +1,5 @@
 <?php
-
+// Copyright 1999-2014. Parallels IP Holdings GmbH. All Rights Reserved.
 class Modules_PanelNews_Promo_Home extends pm_Promo_Home
 {
 
