@@ -7,8 +7,8 @@
   <description>Latest news about Parallels Plesk Panel (provided by official RSS feed).</description>
   <description xml:lang="ru-RU">Последние новости о Parallels Plesk Panel (на основании официального RSS-канала).</description>
   <version>1.2</version>
-  <release>6</release>
-  <vendor>Parallels</vendor>
+  <release>7</release>
+  <vendor>Parallels, Inc.</vendor>
   <url>http://www.parallels.com/products/plesk/</url>
   <plesk_min_version>11.0.1</plesk_min_version>
 </module>
