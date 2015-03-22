@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 1999-2014. Parallels IP Holdings GmbH. All Rights Reserved. -->
+<!-- Copyright 1999-2015. Parallels IP Holdings GmbH. All Rights Reserved. -->
 <module>
   <id>panel-news</id>
   <name>Parallels Plesk Panel News</name>
@@ -7,7 +7,7 @@
   <description>Latest news about Parallels Plesk Panel (provided by official RSS feed).</description>
   <description xml:lang="ru-RU">Последние новости о Parallels Plesk Panel (на основании официального RSS-канала).</description>
   <version>1.2</version>
-  <release>9</release>
+  <release>10</release>
   <vendor>Parallels</vendor>
   <url>http://www.parallels.com/products/plesk/</url>
   <plesk_min_version>11.0.1</plesk_min_version>
