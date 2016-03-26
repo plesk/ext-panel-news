@@ -8,7 +8,7 @@
   <description xml:lang="ru-RU">Последние новости о Plesk (на основании официального RSS-канала).</description>
   <version>1.4</version>
   <release>0</release>
-  <vendor>Odin</vendor>
+  <vendor>Plesk</vendor>
   <url>https://github.com/plesk/ext-panel-news</url>
   <plesk_min_version>11.0.1</plesk_min_version>
 </module>
