@@ -5,7 +5,7 @@ class Modules_PanelNews_News
 
     public static function load()
     {
-        $url = 'http://www.odin.com/products/plesk/rss/';
+        $url = 'https://kb.plesk.com/rss/?p=PLESK';
         $content = @file_get_contents($url);
         if (false === $content) {
             return;
