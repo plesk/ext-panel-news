@@ -3,4 +3,5 @@
 $messages = array(
     'blockTitle' => 'Новости Parallels Plesk Panel',
     'buttonTitle' => 'Читать дальше',
+    'noFeed' => 'Информация не доступна.',
 );

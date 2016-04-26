@@ -3,4 +3,5 @@
 $messages = array(
     'blockTitle' => 'Plesk News',
     'buttonTitle' => 'View Article',
+    'noFeed' => 'Information is not available.',
 );

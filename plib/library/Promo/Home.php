@@ -5,13 +5,14 @@ class Modules_PanelNews_Promo_Home extends pm_Promo_Home
 
     public function getTitle()
     {
-        return  $this->lmsg('blockTitle');
+        return $this->lmsg('blockTitle');
     }
 
     public function getText()
     {
         pm_Context::init($this->_moduleId);
-        return pm_Settings::get('news_text');
+        $text = (string)pm_Settings::get('news_text');
+        return $text ? $text : $this->lmsg('noFeed');
     }
 
     public function getButtonText()
@@ -21,7 +22,8 @@ class Modules_PanelNews_Promo_Home extends pm_Promo_Home
 
     public function getButtonUrl()
     {
-        return pm_Settings::get('news_link');
+        $link = (string)pm_Settings::get('news_link');
+        return $link ? $link : '#';
     }
 
     public function getIconUrl()

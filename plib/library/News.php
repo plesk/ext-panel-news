@@ -10,7 +10,7 @@ class Modules_PanelNews_News
         if (false === $content) {
             return;
         }
-        $xml = simplexml_load_string($content);
+        $xml = @simplexml_load_string($content);
         if (false === $xml || !$xml->channel) {
             return;
         }
