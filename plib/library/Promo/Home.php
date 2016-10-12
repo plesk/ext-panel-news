@@ -5,6 +5,7 @@ class Modules_PanelNews_Promo_Home extends pm_Promo_Home
 
     public function getTitle()
     {
+        pm_Context::init('panel-news');
         return $this->lmsg('blockTitle');
     }
 
@@ -17,6 +18,7 @@ class Modules_PanelNews_Promo_Home extends pm_Promo_Home
 
     public function getButtonText()
     {
+        pm_Context::init('panel-news');
         return $this->lmsg('buttonTitle');
     }
 
