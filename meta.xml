@@ -6,8 +6,9 @@
   <name xml:lang="ru-RU">Новости Plesk</name>
   <description>Latest news about Plesk (provided by official RSS feed).</description>
   <description xml:lang="ru-RU">Последние новости о Plesk (на основании официального RSS-канала).</description>
+  <category>server_tool</category>
   <version>1.7</version>
-  <release>0</release>
+  <release>1</release>
   <vendor>Plesk</vendor>
   <url>https://github.com/plesk/ext-panel-news</url>
   <plesk_min_version>11.0.1</plesk_min_version>
