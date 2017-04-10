@@ -5,7 +5,7 @@ class Modules_PanelNews_News
 
     public static function load()
     {
-        $url = 'http://kb.plesk.com/rss/gen.xml?p=PLESK';
+        $url = 'https://www.plesk.com/feed';
         $content = @file_get_contents($url);
         if (false === $content) {
             return;
